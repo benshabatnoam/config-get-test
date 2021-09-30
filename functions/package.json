@@ -6,7 +6,7 @@
     "shell": "firebase functions:shell",
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
-    "deploy-using-service-account": "cross-env GOOGLE_APPLICATION_CREDENTIALS=./config-get-test-firebase-adminsdk-z8rdo-c865245d74.json firebase deploy --only functions",
+    "deploy-using-service-account": "cross-env GOOGLE_APPLICATION_CREDENTIALS=./service-account.json firebase deploy --only functions",
     "logs": "firebase functions:log"
   },
   "engines": {
